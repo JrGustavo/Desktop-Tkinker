@@ -28,8 +28,7 @@ boton1 = ttk.Button(ventana, text='Galletas', command=evento_click)
 #Utilizar el pack layout manager para mostrar el boton de la ventana
 boton1.pack()
 
-
-
 #Iniciamos la ventana (esta linea la ejecutamos al final)
 #Si la ejecutamos antes, no se muestran los cambios anteriores
 ventana.mainloop()
+
